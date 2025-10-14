@@ -32,7 +32,7 @@ function fetchproduct() {
     let url = await fetch('https://fakestoreapi.com/products')
       .then((res) => console.log(res))
       .then((s) => {
-        console.log(s)
+        console.log(s[0])
       })
   })
 
