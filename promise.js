@@ -47,7 +47,8 @@ function fetchproduct() {
 let fetchdb = async () => {
   try {
     const res = await fetch('https://fakestoreapi.com/products')
-    const data = await res.json()
+    const data = await res.json();
+    console.log(data);
     console.log(data)
   } catch (error) {
     console.log(error)
