@@ -35,6 +35,7 @@ function fetchproduct() {
         console.log(s[0])
         
       })
+     
   })
 
   return fetchurl
