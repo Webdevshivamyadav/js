@@ -49,6 +49,7 @@ let fetchdb = async () => {
     const res = await fetch('https://fakestoreapi.com/products')
     const data = await res.json();
     console.log(data);
+    //  sending the data to the next file 
     console.log(data)
   } catch (error) {
     console.log(error)
