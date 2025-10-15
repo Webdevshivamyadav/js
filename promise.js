@@ -33,6 +33,7 @@ function fetchproduct() {
       .then((res) => console.log(res))
       .then((s) => {
         console.log(s[0])
+        
       })
   })
 
